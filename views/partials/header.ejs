@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/header.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="navigator">
+        <div class="leftnavigator">
+
+            <div class="subleftnav">
+                <a href="/">
+                    <div class="home">
+                        <h1>UNTITLED</h1>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="rightnavigator">
+
+            <div class="subrightnav">
+                <% if(log) { %>
+                    <div class="authenticate">
+                        <h3><%= username %></h3>
+                    </div>
+                    <a href="/logout">
+                        <div class="authenticate">
+                            <h3>LOGOUT</h3>
+                        </div>
+                    </a>
+
+                <% } else{ %>
+                        
+                        <a href="/login">
+                            <div id="login" class="authenticate">
+                                <h3>LOGIN</h3>
+                            </div>
+                        </a>
+                        <a href="/signup">
+                            <div id="signup" class="authenticate">
+                                <h3>SIGNUP</h3>
+                            </div>
+                        </a>
+                <% } %>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

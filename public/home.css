@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+.image{
+    height: 250px;
+    width: 280px;
+    object-fit: contain;
+    padding: 0 3px;
+    margin: 20px 1.5px 0px 1.5px;
+    /* border-radius: 20px;
+    border: 1px solid; */
+    
+}
+.viewMore:hover{
+    background: blue;
+}
+.card{
+    display: flex;
+    /* margin-top: 8px ; */
+    margin: 8px 7px 0px 7px;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 6px 2px rgb(188, 167, 167);
+    
+}
+
+.card:hover{
+    transition: 0.3s;
+    transform: scale(1.08);
+}
+
+.titleContainer{
+    text-overflow: ellipsis;
+    /* justify-content: center; */
+    align-self: center; 
+    margin-top: 3px;
+}
+.title{
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.price{
+    align-self: center;
+    margin-top:3px ;
+}
+.viewMore{
+    margin-top: 5px;
+    margin-bottom: 6px;
+    width: 100px;
+    align-self: center;
+    border-radius: 30px;
+}

@@ -1,0 +1,53 @@
+.container{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra{
+    align-self: center;
+    color: Red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px rgb(235 228 229);
+    padding: 20px;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid;
+    margin: 10px;
+}
+input[type='submit']{
+    width: 100px;
+    align-self: center;
+    background: blue;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+label{
+    margin: 0px 10px;
+    font-family: inherit;
+}
+h2{
+    align-self: center;
+    font-family: inherit;
+}
+span{
+    align-self: center;
+}
+::-webkit-input-placeholder{
+    font-style: italic;
+    font-weight: lighter;
+}
